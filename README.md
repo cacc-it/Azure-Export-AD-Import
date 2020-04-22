@@ -20,7 +20,7 @@ You will need to modify the -Path "OU=students,OU=users,DC=domian,DC=edu" on lin
 8.	Test the script by copying the export.csv to testing.csv.
 9.	Keep the headers but replace the data with several test users(jtest@domain.edu, jdoe@domain.edu, etc).
 10.	Uncomment line 57 and rerun the powershell script.
-11.	This should create your test users in your local active directory.
+11.	This should create the test users in your local active directory.
 12.	After testing, change the $importFile to “\export.csv”
 13.	Take a deep breath and run the powershell script ./ExportAzureImportAD.ps1.
 14.	If all goes well, you should now have your Azure AD users in your local Active Directory.
