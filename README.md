@@ -6,6 +6,7 @@ Administrator access on Azure AD, Office 365, and your local Active Directory.
 
 ## Important
 **Before running the script be sure to understand what the commands are doing especially the import command on line 57. Line 57 is commented by default for your safety!**
+
 You will need to modify the -Path "OU=students,OU=users,DC=domian,DC=edu" on line 57 to reflect your AD directory organization and structure.
 
 ## Instructions
