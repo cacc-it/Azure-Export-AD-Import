@@ -5,7 +5,7 @@ param (
   # Filename to be imported to Active Directory
   $importFile = $PSScriptRoot + "\testing.csv",
   # Search by student domain, edit to reflect your schools domain.
-  $studentDomain = "*suddomain.domain.edu",
+  $studentDomain = "*subdomain.domain.edu",
   #Temporary Password
   $password = "Pass1234"
 )
